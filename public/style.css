@@ -1,0 +1,104 @@
+/* Estilização básica do corpo */
+body {
+    font-family: 'Georgia', serif; /* Fonte com estilo mais clássico */
+    background-color: #2c3e50; /* Fundo escuro */
+    color: #c7caca; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('background.jpeg'); /* Imagem de fundo de dungeon */
+    background-size: cover; /* Cobre toda a área */
+    background-attachment: fixed; /* Fundo fixo ao rolar */
+}
+
+/* Estilo do container do jogo */
+#game-container {
+    background-color: rgba(84, 96, 85, 0.85); /* Fundo semi-transparente */
+    border: 4px solid #2a2a2a; /* Borda que remete a pedras */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Sombra escura */
+    width: 90%;
+    max-width: 400px; /* Largura máxima */
+    animation: fadeIn 0.5s; /* Animação de entrada */
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Estilo do título */
+#title {
+    text-align: center; /* Centraliza o texto */
+    font-size: 26px; /* Tamanho da fonte */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+    text-shadow: 2px 2px 5px #000; /* Sombra no texto para destaque */
+}
+
+/* Estilo da narrativa */
+#narrative {
+    margin-bottom: 20px; /* Espaçamento abaixo da narrativa */
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+/* Estilo das opções */
+#options {
+    margin-top: 20px; /* Espaçamento acima das opções */
+}
+
+
+
+/* Estilo dos botões */
+button {
+    display: block; /* Faz com que os botões ocupem toda a largura */
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    margin: 10px 0; /* Margem superior e inferior */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    background-image: url('button-bg.png'); /* Imagem de fundo do botão */
+    background-size: cover; /* Cobre toda a área do botão */
+    color: #242e25; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 6px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra no botão */
+    
+    /* Borda ao redor do texto usando text-shadow */
+    text-shadow: 
+        -1px -1px 0 #b1b1b1, /* Borda superior e esquerda */
+         1px -1px 0 #b1b1b1, /* Borda superior e direita */
+        -1px  1px 0 #b1b1b1, /* Borda inferior e esquerda */
+         1px  1px 0 #b1b1b1; /* Borda inferior e direita */
+}
+
+
+/* Efeito ao passar o mouse sobre os botões */
+button:hover {
+    background-color: rgba(211, 84, 0, 0.8); /* Cor do botão ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+}
+
+/* Efeito de clique no botão */
+button:active {
+    transform: scale(0.95); /* Reduz ligeiramente o botão ao clicar */
+}
+
+/* Estilização responsiva */
+@media (max-width: 480px) {
+    #title {
+        font-size: 22px; /* Reduz o tamanho do título em telas pequenas */
+    }
+    #narrative {
+        font-size: 16px; /* Reduz o tamanho da narrativa em telas pequenas */
+    }
+    button {
+        font-size: 14px; /* Reduz o tamanho da fonte do botão em telas pequenas */
+    }
+}

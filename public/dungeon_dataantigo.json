@@ -1,0 +1,237 @@
+{
+  "title": "Dungeon of Choices",
+  "startPage": {
+      "id": 1,
+      "narrative": "Você se encontra na entrada de uma antiga dungeon. O cheiro de mofo e a umidade são intensos. À sua frente, uma luz tênue brilha, revelando três opções: ser um Mago, um Guerreiro ou um Arqueiro.",
+      "options": [
+          { "choice": "Mago", "nextPage": 2 },
+          { "choice": "Guerreiro", "nextPage": 10 },
+          { "choice": "Arqueiro", "nextPage": 18 }
+      ]
+  },
+  "pages": {
+      "1": {
+          "narrative": "Você se encontra na entrada de uma antiga dungeon. O cheiro de mofo e a umidade são intensos. À sua frente, uma luz tênue brilha, revelando três opções: ser um Mago, um Guerreiro ou um Arqueiro.",
+          "options": [
+              { "choice": "Mago", "nextPage": 2 },
+              { "choice": "Guerreiro", "nextPage": 10 },
+              { "choice": "Arqueiro", "nextPage": 18 }
+          ]
+      },
+      "2": {
+          "narrative": "Como um Mago, você invoca uma bola de fogo para iluminar seu caminho. À sua frente, há um corredor escuro e uma porta entreaberta à direita.",
+          "options": [
+              { "choice": "Seguir pelo corredor", "nextPage": 3 },
+              { "choice": "Entrar pela porta", "nextPage": 4 }
+          ]
+      },
+      "3": {
+          "narrative": "Você avança pelo corredor e encontra um grupo de goblins armados.",
+          "options": [
+              { "choice": "Atacar os goblins com magia", "nextPage": 5 },
+              { "choice": "Tentar negociar", "nextPage": 6 },
+              { "choice": "Fugir de volta", "nextPage": 35 }
+          ]
+      },
+      "4": {
+          "narrative": "A porta range ao abrir, revelando uma sala cheia de tesouros e um golem de pedra guardando-os.",
+          "options": [
+              { "choice": "Atacar o golem", "nextPage": 7 },
+              { "choice": "Tentar persuadir o golem", "nextPage": 8 }
+          ]
+      },
+      "5": {
+          "narrative": "Você lança um feitiço poderoso e derrota os goblins! Eles não tiveram chance. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Explorar a sala deles", "nextPage": 9 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "6": {
+          "narrative": "Os goblins parecem hesitantes. Você consegue convencê-los a se afastarem, mas eles dizem que há um tesouro à sua espera se você passar.",
+          "options": [
+              { "choice": "Seguir os goblins", "nextPage": 9 },
+              { "choice": "Retornar", "nextPage": 34 }
+          ]
+      },
+      "7": {
+          "narrative": "Você ataca o golem, mas ele é muito forte. Você precisa usar sua astúcia!",
+          "options": [
+              { "choice": "Lançar um feitiço de distração", "nextPage": 11 },
+              { "choice": "Fugir", "nextPage": 33 }
+          ]
+      },
+      "8": {
+          "narrative": "Você tenta persuadir o golem, e ele aceita. Ele oferece a você um artefato mágico em troca de liberdade.",
+          "options": [
+              { "choice": "Aceitar o artefato", "nextPage": 12 },
+              { "choice": "Recusar e lutar", "nextPage": 7 }
+          ]
+      },
+      "9": {
+          "narrative": "Você encontra um tesouro imenso! O que deseja fazer?",
+          "options": [
+              { "choice": "Pegar o tesouro", "nextPage": 13 },
+              { "choice": "Explorar mais", "nextPage": 14 }
+          ]
+      },
+      "10": {
+          "narrative": "Como Guerreiro, você se prepara para entrar na dungeon com sua espada em punho. À sua frente, uma figura sombria aparece.",
+          "options": [
+              { "choice": "Atacar a figura", "nextPage": 15 },
+              { "choice": "Tentar conversar", "nextPage": 16 }
+          ]
+      },
+      "11": {
+          "narrative": "O golem se distrai, e você aproveita a oportunidade para atacá-lo. Você vence a luta e pode explorar o tesouro!",
+          "options": [
+              { "choice": "Pegar o tesouro", "nextPage": 13 },
+              { "choice": "Explorar mais", "nextPage": 14 }
+          ]
+      },
+      "12": {
+          "narrative": "O artefato aumenta seu poder mágico. Com isso, você pode fazer grandes coisas na dungeon!",
+          "options": [
+              { "choice": "Explorar a dungeon", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "13": {
+          "narrative": "O tesouro é imenso e você se sente mais forte. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Sair da dungeon com o tesouro", "nextPage": 26 },
+              { "choice": "Explorar mais", "nextPage": 14 }
+          ]
+      },
+      "14": {
+          "narrative": "Você continua explorando a dungeon e encontra um novo caminho. Um antigo altar aparece.",
+          "options": [
+              { "choice": "Investigar o altar", "nextPage": 27 },
+              { "choice": "Retornar", "nextPage": 36 }
+          ]
+      },
+      "15": {
+          "narrative": "Você ataca a figura e descobre que é um espectro! A luta é feroz, mas você sai vitorioso.",
+          "options": [
+              { "choice": "Explorar o que sobrou", "nextPage": 17 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "16": {
+          "narrative": "Você tenta conversar com a figura sombria. Ela se apresenta como um guardião da dungeon e pede ajuda.",
+          "options": [
+              { "choice": "Ajudar o guardião", "nextPage": 19 },
+              { "choice": "Recusar e atacar", "nextPage": 15 }
+          ]
+      },
+      "17": {
+          "narrative": "Você encontra um artefato mágico no que sobrou do espectro. Você agora é um Guerreiro mágico!",
+          "options": [
+              { "choice": "Explorar mais", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "18": {
+          "narrative": "Como Arqueiro, você se move silenciosamente. Você escuta passos à frente. O que deseja fazer?",
+          "options": [
+              { "choice": "Atirar uma flecha", "nextPage": 20 },
+              { "choice": "Esconder-se e observar", "nextPage": 21 }
+          ]
+      },
+      "20": {
+          "narrative": "Você atira em um rato gigante, que se transforma em um pequeno tesouro. O que deseja fazer?",
+          "options": [
+              { "choice": "Pegar o tesouro", "nextPage": 22 },
+              { "choice": "Continuar explorando", "nextPage": 1 }
+          ]
+      },
+      "21": {
+          "narrative": "Você observa uma reunião de goblins discutindo um plano. O que deseja fazer?",
+          "options": [
+              { "choice": "Interromper a reunião", "nextPage": 23 },
+              { "choice": "Escutar mais", "nextPage": 24 }
+          ]
+      },
+      "22": {
+          "narrative": "O tesouro é uma chave mágica! Você pode abrir portas secretas. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Explorar mais", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "23": {
+          "narrative": "Você interrompe os goblins, e uma luta começa. Você derrota-os e encontra um mapa da dungeon.",
+          "options": [
+              { "choice": "Usar o mapa", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "24": {
+          "narrative": "Você escuta que eles planejam um ataque a uma aldeia. Você pode tentar avisar a aldeia ou se infiltrar.",
+          "options": [
+              { "choice": "Avisar a aldeia", "nextPage": 25 },
+              { "choice": "Infiltrar-se", "nextPage": 23 }
+          ]
+      },
+      "25": {
+          "narrative": "Você corre até a aldeia e avisa os aldeões. Eles se preparam para a defesa e agradecem a você.",
+          "options": [
+              { "choice": "Ficar e ajudar na defesa", "nextPage": 28 },
+              { "choice": "Partir para novas aventuras", "nextPage": 1 }
+          ]
+      },
+      "26": {
+          "narrative": "Você sai da dungeon, levando consigo suas aventuras e tesouros. O mundo lá fora está cheio de novas possibilidades!",
+          "options": [
+              { "choice": "Continuar a aventura", "nextPage": 29 }
+          ]
+      },
+      "27": {
+          "narrative": "O altar brilha intensamente, revelando um novo poder. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Usar o poder", "nextPage": 30 },
+              { "choice": "Ignorar e sair", "nextPage": 1 }
+          ]
+      },
+      "28": {
+          "narrative": "Os aldeões agradecem por sua ajuda e oferecem uma recompensa. Você se torna um herói local!",
+          "options": [
+              { "choice": "Aceitar a recompensa", "nextPage": 31 },
+              { "choice": "Recusar e partir", "nextPage": 32 }
+          ]
+      },
+      "29": {
+          "narrative": "A jornada continua. Novos desafios e aventuras estão à sua espera!",
+          "options": []
+      },
+      "30": {
+          "narrative": "Você se torna um ser poderoso, capaz de dominar as forças da natureza. Sua aventura se transforma em lenda.",
+          "options": []
+      },
+      "31": {
+          "narrative": "Você usa a recompensa para ajudar os necessitados, tornando-se um herói não só em suas aventuras, mas também no coração das pessoas.",
+          "options": []
+      },
+
+      "32": {
+          "narrative": "Você recusa a recompensa porquê dinheiro não é uma das suas opções, mas fazer a coisa certa e poder dormir de consciência tranquila",
+          "options": []
+      },
+      "33": {
+          "narrative": "Você resolve fugir de medo, isso não lhe trará tesouros, mas vai manchar sua reputação!",
+          "options": []
+      },
+      "34": {
+          "narrative": "Você resolve não acreditar nos goblins, não são seres confiaveis. Você vai embora pois não acredita que possa ter um tesolro nessa masmorra.",
+          "options": []
+      },
+      "35": {
+          "narrative": "Você tenta fugir dos goblins, mas pisa em uma armadilha e é empalado vivo, encerrando sua vida como se fosse uma barata (As baratas tem mais coragem).",
+          "options": []
+      },
+      "36": {
+          "narrative": "Você Ignora o altar, talvez não seja bom mexer com o que não conhece. Você vai pra casa de mãos vazias, mas com vida.",
+          "options": []
+        }
+  }
+}

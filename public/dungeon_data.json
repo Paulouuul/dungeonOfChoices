@@ -1,0 +1,362 @@
+{
+  "title": "Dungeon of Choices",
+  "startPage": {
+      "id": 1,
+      "narrative": "Você se encontra na entrada de uma antiga dungeon. O cheiro de mofo e a umidade são intensos. À sua frente, uma luz tênue brilha, revelando três opções: ser um Mago, um Guerreiro ou um Arqueiro.",
+      "options": [
+          { "choice": "Mago", "nextPage": 2 },
+          { "choice": "Guerreiro", "nextPage": 10 },
+          { "choice": "Arqueiro", "nextPage": 18 }
+      ]
+  },
+  "pages": {
+      "1": {
+          "narrative": "Você se encontra na entrada de uma antiga dungeon. O cheiro de mofo e a umidade são intensos. À sua frente, uma luz tênue brilha, revelando três opções: ser um Mago, um Guerreiro ou um Arqueiro.",
+          "options": [
+              { "choice": "Mago", "nextPage": 2 },
+              { "choice": "Guerreiro", "nextPage": 10 },
+              { "choice": "Arqueiro", "nextPage": 18 }
+          ]
+      },
+      "2": {
+          "narrative": "Como um Mago, você invoca uma bola de fogo para iluminar seu caminho. À sua frente, há um corredor escuro e uma porta entreaberta à direita.",
+          "options": [
+              { "choice": "Seguir pelo corredor", "nextPage": 3 },
+              { "choice": "Entrar pela porta", "nextPage": 4 }
+          ]
+      },
+      "3": {
+          "narrative": "Você avança pelo corredor e encontra um grupo de goblins armados.",
+          "options": [
+              { "choice": "Atacar os goblins com magia", "nextPage": 5 },
+              { "choice": "Tentar negociar", "nextPage": 6 },
+              { "choice": "Fugir de volta", "nextPage": 35 }
+          ]
+      },
+      "4": {
+          "narrative": "A porta range ao abrir, revelando uma sala cheia de tesouros e um golem de pedra guardando-os.",
+          "options": [
+              { "choice": "Atacar o golem", "nextPage": 7 },
+              { "choice": "Tentar persuadir o golem", "nextPage": 8 }
+          ]
+      },
+      "5": {
+          "narrative": "Você lança um feitiço poderoso e derrota os goblins! Eles não tiveram chance. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Explorar a sala deles", "nextPage": 9 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "6": {
+          "narrative": "Os goblins parecem hesitantes. Você consegue convencê-los a se afastarem, mas eles dizem que há um tesouro à sua espera se você passar.",
+          "options": [
+              { "choice": "Seguir os goblins", "nextPage": 9 },
+              { "choice": "Retornar", "nextPage": 34 }
+          ]
+      },
+      "7": {
+          "narrative": "Você ataca o golem, mas ele é muito forte. Você precisa usar sua astúcia!",
+          "options": [
+              { "choice": "Lançar um feitiço de distração", "nextPage": 11 },
+              { "choice": "Fugir", "nextPage": 33 }
+          ]
+      },
+      "8": {
+          "narrative": "Você tenta persuadir o golem, e ele aceita. Ele oferece a você um artefato mágico em troca de liberdade.",
+          "options": [
+              { "choice": "Aceitar o artefato", "nextPage": 12 },
+              { "choice": "Recusar e lutar", "nextPage": 7 }
+          ]
+      },
+      "9": {
+          "narrative": "Você encontra um tesouro imenso! O que deseja fazer?",
+          "options": [
+              { "choice": "Pegar o tesouro", "nextPage": 13 },
+              { "choice": "Explorar mais", "nextPage": 14 }
+          ]
+      },
+      "10": {
+          "narrative": "Como Guerreiro, você se prepara para entrar na dungeon com sua espada em punho. À sua frente, uma figura sombria aparece.",
+          "options": [
+              { "choice": "Atacar a figura", "nextPage": 15 },
+              { "choice": "Tentar conversar", "nextPage": 16 }
+          ]
+      },
+      "11": {
+          "narrative": "O golem se distrai, e você aproveita a oportunidade para atacá-lo. Você vence a luta e pode explorar o tesouro!",
+          "options": [
+              { "choice": "Pegar o tesouro", "nextPage": 13 },
+              { "choice": "Explorar mais", "nextPage": 14 }
+          ]
+      },
+      "12": {
+          "narrative": "O artefato aumenta seu poder mágico. Com isso, você pode fazer grandes coisas na dungeon!",
+          "options": [
+              { "choice": "Explorar a dungeon", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "13": {
+          "narrative": "O tesouro é imenso e você se sente mais forte. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Sair da dungeon com o tesouro", "nextPage": 26 },
+              { "choice": "Explorar mais", "nextPage": 14 }
+          ]
+      },
+      "14": {
+          "narrative": "Você continua explorando a dungeon e encontra um novo caminho. Um antigo altar aparece.",
+          "options": [
+              { "choice": "Investigar o altar", "nextPage": 27 },
+              { "choice": "Retornar", "nextPage": 36 }
+          ]
+      },
+      "15": {
+          "narrative": "Você ataca a figura e descobre que é um espectro! A luta é feroz, mas você sai vitorioso.",
+          "options": [
+              { "choice": "Explorar o que sobrou", "nextPage": 17 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "16": {
+          "narrative": "Você tenta conversar com a figura sombria. Ela se apresenta como um guardião da dungeon e pede ajuda.",
+          "options": [
+              { "choice": "Ajudar o guardião", "nextPage": 19 },
+              { "choice": "Recusar e atacar", "nextPage": 15 }
+          ]
+      },
+      "17": {
+          "narrative": "Você encontra um artefato mágico no que sobrou do espectro. Você agora é um Guerreiro mágico!",
+          "options": [
+              { "choice": "Explorar mais", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "18": {
+          "narrative": "Como Arqueiro, você se move silenciosamente. Você escuta passos à frente. O que deseja fazer?",
+          "options": [
+              { "choice": "Atirar uma flecha", "nextPage": 20 },
+              { "choice": "Esconder-se e observar", "nextPage": 21 }
+          ]
+      },
+      "19": {
+          "narrative": "Você decide ajudar. Esta mesma figura lhe diz que um grande mal reside na dungeon, e que quem derrotá-lo poderá reivindicar seu tesouro?",
+          "options": [
+              { "choice": "Perguntar o que é esse grande mal", "nextPage": 37 },
+              { "choice": "Perguntar por que ele quer sua ajuda", "nextPage": 38 }
+          ]
+      },
+      "20": {
+          "narrative": "Você atira em um rato gigante, que se transforma em um pequeno tesouro. O que deseja fazer?",
+          "options": [
+              { "choice": "Pegar o tesouro", "nextPage": 22 },
+              { "choice": "Continuar explorando", "nextPage": 14 }
+          ]
+      },
+      "21": {
+          "narrative": "Você observa uma reunião de goblins discutindo um plano. O que deseja fazer?",
+          "options": [
+              { "choice": "Interromper a reunião", "nextPage": 23 },
+              { "choice": "Escutar mais", "nextPage": 24 }
+          ]
+      },
+      "22": {
+          "narrative": "O tesouro é uma chave mágica! Você pode abrir portas secretas. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Explorar mais", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "23": {
+          "narrative": "Você interrompe os goblins, e uma luta começa. Você os derrota e encontra um mapa da dungeon.",
+          "options": [
+              { "choice": "Usar o mapa", "nextPage": 14 },
+              { "choice": "Sair da dungeon", "nextPage": 26 }
+          ]
+      },
+      "24": {
+          "narrative": "Você escuta que eles planejam um ataque a uma aldeia. Você pode tentar avisar a aldeia ou se infiltrar.",
+          "options": [
+              { "choice": "Avisar a aldeia", "nextPage": 25 },
+              { "choice": "Infiltrar-se", "nextPage": 23 }
+          ]
+      },
+      "25": {
+          "narrative": "Você corre até a aldeia e avisa os aldeões. Eles se preparam para a defesa e agradecem a você.",
+          "options": [
+              { "choice": "Ficar e ajudar na defesa", "nextPage": 28 },
+              { "choice": "Partir para novas aventuras", "nextPage": 29 }
+          ]
+      },
+      "26": {
+          "narrative": "Você sai da dungeon, levando consigo suas aventuras e tesouros. O mundo lá fora está cheio de novas possibilidades!",
+          "options": [
+              { "choice": "Continuar a aventura", "nextPage": 29 }
+          ]
+      },
+      "27": {
+          "narrative": "O altar brilha intensamente, revelando um novo poder. O que deseja fazer agora?",
+          "options": [
+              { "choice": "Usar o poder", "nextPage": 30 },
+              { "choice": "Ignorar e sair", "nextPage": 26 }
+          ]
+      },
+      "28": {
+          "narrative": "Os aldeões agradecem por sua ajuda e oferecem uma recompensa. Você se torna um herói local!",
+          "options": [
+              { "choice": "Aceitar a recompensa", "nextPage": 31 },
+              { "choice": "Recusar e partir", "nextPage": 32 }
+          ]
+      },
+      "29": {
+          "narrative": "A jornada continua. Novos desafios e aventuras estão à sua espera!",
+          "options": []
+      },
+      "30": {
+          "narrative": "Você se torna um ser poderoso, capaz de dominar as forças da natureza. Sua aventura se transforma em lenda.",
+          "options": []
+      },
+      "31": {
+          "narrative": "Você usa a recompensa para ajudar os necessitados, tornando-se um herói não só em suas aventuras, mas também no coração das pessoas.",
+          "options": []
+      },
+      "32": {
+          "narrative": "Você recusa a recompensa porque dinheiro não é uma das suas opções, mas fazer a coisa certa e poder dormir de consciência tranquila.",
+          "options": []
+      },
+      "33": {
+          "narrative": "Você resolve fugir com medo. Isso não lhe trará tesouros, mas vai manchar sua reputação!",
+          "options": []
+      },
+      "34": {
+          "narrative": "Você resolve não acreditar nos goblins, pois não são seres confiáveis. Você vai embora porque não acredita que possa haver um tesouro nessa masmorra.",
+          "options": []
+      },
+      "35": {
+          "narrative": "Você tenta fugir dos goblins, mas pisa em uma armadilha e é empalado vivo, encerrando sua vida como se fosse uma barata (As baratas têm mais coragem).",
+          "options": []
+      },
+      "36": {
+          "narrative": "Você ignora o altar, talvez não seja bom mexer com o que não conhece. Você vai para casa de mãos vazias, mas com vida.",
+          "options": []
+      },
+      "37": {
+          "narrative": "Um rei de um reino antigo, que foi amaldiçoado com a imortalidade por seu tesouro. Com o passar dos anos ele enlouqueceu e começou a criar uma magia sinistra. É uma questão de tempo até ele se libertar de sua prisão e seguir para a superfície.",
+          "options": [
+              { "choice": "Perguntar por que ele precisa de sua ajuda", "nextPage": 38 },
+              { "choice": "Dizer que vai tentar encerrar a vida deste rei louco", "nextPage": 39 }
+          ]
+      },
+      "38": {
+          "narrative": "Meu dever é impedir que ele saia desta masmorra, mas minhas forças já estão no fim, e não poderei impedi-lo. Vai me ajudar?",
+          "options": [
+              { "choice": "Recusar e não ajudar", "nextPage": 40 },
+              { "choice": "Dizer que sim, e que acabará com a imortalidade do rei", "nextPage": 39 }
+          ]
+      },
+      "39": {
+          "narrative": "O guardião agradece e te guia pela masmorra até uma grande porta de aço com antigas runas pintadas na porta, escritas em uma língua que você não conhece. O guardião lhe entrega uma chave de prata e lhe deseja boa sorte.",
+          "options": [
+              { "choice": "Abrir a porta com a chave", "nextPage": 41 },
+              { "choice": "Olhar ao redor", "nextPage": 40 }
+          ]
+      },
+      "40": {
+          "narrative": "Você nega e diz que um guerreiro imortal de outro tempo é problema dele, não seu. Você deixa a dungeon sem nenhum tesouro ou glória, mas vai viver mais um dia, talvez tenha uma nova aventura.",
+          "options": []
+      },
+      "41": {
+          "narrative": "Você abre a porta. As runas começam a brilhar em uma luz verde, emitindo um som suave. A cela é bem iluminada. Você pode ver que é muito grande, e que há vários ossos e artefatos daqueles que tentaram antes de você.",
+          "options": [
+              { "choice": "Investigar a cela", "nextPage": 42 },
+              { "choice": "Gritar perguntando se há alguém ali", "nextPage": 43 }
+          ]
+      },
+      "42": {
+          "narrative": "Você anda lentamente, olhando ao redor. Empunhando sua espada, você está pronto para qualquer surpresa. Você nota um caixão dourado posicionado em pé, mas ele está aberto.",
+          "options": [
+              { "choice": "Aproximar-se", "nextPage": 44 },
+              { "choice": "Olhar ao redor", "nextPage": 46 }
+          ]
+      },
+      "43": {
+          "narrative": "Sua voz ecoa pela sala e pelos corredores da masmorra. Ninguém lhe dá uma resposta, mas do fundo da sala é possível escutar o que parece ser o som de correntes se arrastando.",
+          "options": [
+              { "choice": "Chegar mais perto", "nextPage": 45 },
+              { "choice": "Gritar novamente", "nextPage": 50 }
+          ]
+      },
+      "44": {
+          "narrative": "Ao se aproximar, você começa a escutar um estranho som, como o de correntes se arrastando. Mas o som vem de atrás de você.",
+          "options": [
+              { "choice": "Virar-se", "nextPage": 48 },
+              { "choice": "Esconder-se", "nextPage": 47 }
+          ]
+      },
+      "45": {
+          "narrative": "Ao tentar se aproximar, você escuta um som de algo voando vindo na sua direção, mas o momento é tão rápido que foi impossível reagir. Quando você se dá conta, há uma espada cravada em seu peito. Ela foi atirada de longe, mas de onde não importa. Você perde as forças e cai no chão, sem vida, e sem saber o que acabou com ela.",
+          "options": []
+      },
+      "46": {
+          "narrative": "Você olha mais ao redor e nota marcas no chão, como pegadas, levando a um canto escuro à sua direita.",
+          "options": [
+              { "choice": "Continuar explorando", "nextPage": 48 },
+              { "choice": "Esconder-se e observar", "nextPage": 47 }
+          ]
+      },
+      "47": {
+          "narrative": "Você decide se esconder atrás de uma pilastra para observar melhor a sala, mas neste mesmo momento você sente o chão começar a afundar. Ao olhar para baixo, você nota que pisou em uma armadilha. Seus pés ficam afundados em um tipo de terra, sem que você possa se mexer, e nesse mesmo momento você escuta um mecanismo se acionando. Mas você nem teve tempo para reagir: uma flecha é atirada da parede à sua esquerda, perfurando seu crânio e encerrando sua vida.",
+          "options": []
+      },
+      "48": {
+          "narrative": "Ao se virar, você vê uma figura horrenda, como um cadáver em decomposição, mas que ainda mantém a pele, totalmente sem músculos, segurando uma espada de cor esmeralda e com uma coroa negra em sua cabeça. Não há dúvidas de que este é o tal rei amaldiçoado.",
+          "options": [
+              { "choice": "Atacar em sua cabeça", "nextPage": 49 },
+              { "choice": "Atacar em seu peito", "nextPage": 51 }
+          ]
+      },
+      "49": {
+          "narrative": "Você ataca com sua espada na cabeça do rei. Ele desvia, protegendo especialmente sua coroa. Ele se prepara para uma investida.",
+          "options": [
+              { "choice": "Rolar para o lado", "nextPage": 52 },
+              { "choice": "Atacar em seu peito", "nextPage": 51 }
+          ]
+      },
+      "50": {
+          "narrative": "Ao tentar gritar novamente, você é interrompido por um súbito movimento rápido de uma criatura que você não pode ver. Você não sente sua garganta, nem seu corpo. Sua visão começa a cair e, ao chegar ao chão, você vê seu corpo sem sua cabeça. Você foi decapitado!",
+          "options": []
+      },
+      "51": {
+        "narrative": "Você tenta desferir um corte em direção ao peito do rei. Ele desvia. O ataque gera um impacto no adversário, fazendo com que ele cambaleie para trás. Porém, ele continua firme e se prepara para um golpe com a espada.",
+        "options": [
+            { "choice": "Rolar para o lado", "nextPage": 52 },
+            { "choice": "Tentar contra-atacar", "nextPage": 53 }
+        ]
+    },
+    "52": {
+        "narrative": "Você se esquiva do violento ataque do rei rolando para a direita. Você está pronto para atacar novamente, mas vê que o rei já está pronto para desferir outro golpe.",
+        "options": [
+            { "choice": "Atacar na cabeça", "nextPage": 55 },
+            { "choice": "Atacar no joelho", "nextPage": 54 }
+        ]
+    },
+    "53": {
+        "narrative": "Você subestimou seu inimigo. Ao tentar contra-atacar, ele parte sua espada ao meio e, com um movimento ainda mais rápido, perfura seu peito com a espada, fazendo você sangrar até a morte.",
+        "options": []
+    },
+    "54": {
+        "narrative": "Atacar no joelho fez com que o rei caísse, deixando-o impossibilitado de andar. É sua chance.",
+        "options": [
+            { "choice": "Atacar na cabeça", "nextPage": 55 },
+            { "choice": "Atacar na espada esmeralda", "nextPage": 56 }
+        ]
+    },
+    "55": {
+        "narrative": "Ao atacar novamente na cabeça, você destrói a coroa. O rei dá um grito agonizante, deixando cair a espada. Aos poucos, você o vê virar pedra. O guardião aparece e lhe agradece por ter dado um fim à maldição do rei, agora dando um fim definitivo a ele. Ele o recompensa com a espada do rei e declara que você é um verdadeiro herói.",
+        "options": []
+    },
+    "56": {
+        "narrative": "Você acha que a fonte de poder do rei vem da espada e tenta destruí-la, mas sem sucesso. O rei recupera o fôlego e joga a espada contra você, perfurando sua garganta e te matando ali.",
+        "options": []
+    }
+  }
+}

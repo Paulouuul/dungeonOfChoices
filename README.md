@@ -338,21 +338,6 @@ public/script.js
 
 ---
 
-## 💡 Ideias para Melhorias Futuras
-
-* Sistema de inventário
-* Sistema de combate com atributos
-* Barra de vida
-* Itens equipáveis
-* Sistema de experiência
-* Salvar progresso
-* Sons e músicas
-* Novas classes
-* Conquistas
-* Modo Hardcore
-
----
-
 ## 🐛 Solução de Problemas
 
 ### O jogo não abre

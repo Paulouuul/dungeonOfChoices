@@ -149,7 +149,7 @@ npm --version
 ### Clonando o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/dungeonOfChoices.git
+git clone https://github.com/Paulouuul/dungeonOfChoices
 cd dungeonOfChoices
 ```
 
